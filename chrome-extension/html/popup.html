@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Poster</title>
+  <!-- <link rel="stylesheet" type="text/css" href="../css/popup.css"> -->
+</head>
+<body>
+  <h1>Auto Poster</h1>
+  <form id="postForm">
+    <label for="platform">Chọn nền tảng:</label>
+    <select id="platform" name="platform">
+      <option value="facebook">Facebook</option>
+      <option value="instagram">Instagram</option>
+      <option value="tiktok">TikTok</option>
+      <option value="google">Google</option>
+      <option value="map">Google Maps</option>
+    </select>
+    <label for="action">Chọn hành động:</label>
+    <select id="action" name="action">
+      <option value="post">Đăng bài</option>
+      <option value="comment">Bình luận</option>
+      <option value="follow">Theo dõi</option>
+    </select>
+    <label for="content">Nội dung:</label>
+    <textarea id="content" name="content"></textarea>
+    <button type="submit">Thực hiện</button>
+  </form>
+</body>
+</html>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  select, textarea {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+</style>
